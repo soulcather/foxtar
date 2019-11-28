@@ -60,6 +60,69 @@
     content: "\f095";
   }
 }
-
-
-
+.footer__list a{
+  color: #b7c3c8;
+  font-family: $roboto;
+  font-size: 15px;
+  line-height: 36px;
+  transition: all .3s;
+}
+.footer__list a:before{
+  content: "\f105";
+  font-family: 'icomoon';
+  margin-right: 15px;
+  color: $green;
+  font-size: 18px;
+  transition: all .3s;
+}
+.footer__list a:hover{
+  color: #fff;
+  font-size: 18px;
+  &:before{
+    font-size: 23px;
+  }
+}
+.footer__social li{
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 35px;
+}
+.footer__form-title{
+  font-family: $roboto;
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+input{
+  width: 215px;
+  height: 40px;
+  background-color: #2f3c43;
+  outline: none;
+  padding-left: 15px;
+  border: 1px solid #111;
+  border-bottom: 1px solid #253136;
+  border-right: none;
+}
+form{
+  position: relative;
+}
+.email__button{
+  width: 43px;
+  height: 40px;
+  position: absolute;
+  border: 1px solid #111;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #253136;
+  border-left: none;
+  background-color: $green;
+  outline: none;
+  cursor: pointer;
+  &:after{
+    content: "\f124";
+    font-family: 'icomoon';
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
