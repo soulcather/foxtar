@@ -70,7 +70,7 @@
 .footer__list a:before{
   content: "\f105";
   font-family: 'icomoon';
-  margin-right: 15px;
+  margin-right: 21px;
   color: $green;
   font-size: 18px;
   transition: all .3s;
@@ -87,6 +87,45 @@
   margin-right: 5px;
   margin-bottom: 35px;
 }
+.footer__social{
+  a{
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/spritesheet.png);
+  background-position: -1px -1px;
+  }
+  li:nth-child(2){
+    a{
+      width: 28px;
+      height: 28px;
+      background-image: url(../img/spritesheet.png);
+      background-position: -31px -31px;
+    }
+  }
+  li:nth-child(3){
+    a{
+      width: 28px;
+      height: 28px;
+      background-image: url(../img/spritesheet.png);
+      background-position: -61px -1px;    }
+  }
+  li:nth-child(4){
+    a{
+      width: 28px;
+      height: 28px;
+      background-image: url(../img/spritesheet.png);
+      background-position: -1px -31px;
+    }
+  }
+  li:nth-child(5){
+    a{
+      width: 28px;
+      height: 28px;
+      background-image: url(../img/spritesheet.png);
+      background-position: -31px -1px;
+    }
+  }
+}
 .footer__form-title{
   font-family: $roboto;
   font-size: 20px;
@@ -94,7 +133,7 @@
   color: #fff;
   margin-bottom: 15px;
 }
-input{
+.footer__form input{
   width: 215px;
   height: 40px;
   background-color: #2f3c43;
@@ -103,9 +142,7 @@ input{
   border: 1px solid #111;
   border-bottom: 1px solid #253136;
   border-right: none;
-}
-form{
-  position: relative;
+  color: #fff;
 }
 .email__button{
   width: 43px;
